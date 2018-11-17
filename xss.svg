@@ -2,7 +2,9 @@
     <defs>
       <script type="text/javascript">
       <![CDATA[
+function meldung(){
         alert('SVG-Element wurde angeklickt!');
+}
       ]]>
       </script>
     </defs>
