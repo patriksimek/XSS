@@ -4,6 +4,17 @@
 <svg width="5cm" height="4cm" version="1.1" viewbox="0 0 880 410"
      xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink">
   
-    <circle cx="100" cy="100" r="25" fill="#c32e04" />
+   <defs>
+      <!-- der Script Bereich -->
+      <script type="text/javascript">
+      <![CDATA[
+        function meldung(){
+          alert('SVG-Element wurde angeklickt!');
+        }
+      ]]>
+      </script>
+    </defs>
+  
+    <circle cx="100" cy="100" r="25" fill="#c32e04" onclick="meldung()" />
 	
   </svg>
