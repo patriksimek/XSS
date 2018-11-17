@@ -8,13 +8,11 @@
       <!-- der Script Bereich -->
       <script type="text/javascript">
       <![CDATA[
-        function meldung(){
-          alert('SVG-Element wurde angeklickt!');
-        }
+        alert('SVG-Element wurde angeklickt!');
       ]]>
       </script>
     </defs>
   
-    <circle cx="100" cy="100" r="25" fill="#c32e04" onclick="meldung()" />
+    <circle cx="100" cy="100" r="25" fill="#c32e04" />
 	
   </svg>
