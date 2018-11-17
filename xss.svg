@@ -1,0 +1,12 @@
+<svg viewbox="0 0 880 410">
+    <defs>
+      <script type="text/javascript">
+      <![CDATA[
+        alert('SVG-Element wurde angeklickt!');
+      ]]>
+      </script>
+    </defs>
+  
+    <circle cx="100" cy="100" r="25" fill="#c32e04" onclick="meldung()" />
+	
+  </svg>
